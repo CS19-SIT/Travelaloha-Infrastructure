@@ -1,10 +1,10 @@
 ---
 title: "CSC 210/BIF 521 Analysis and Design of Algorithms | CSC218 Database Systems Project Infrastructure"
-author: ["student@youremailaddress.com", "OSID: XXXX"]
-date: "2017-02-20"
+author: ["thanadon.rh@mail.kmutt.ac.th", "ID: 61130500240"]
+date: "2019-10-15"
 subject: "Markdown"
-keywords: [Markdown, Example]
-subtitle: "PWK Lab & OSCP Exam"
+keywords: [Markdown, Algorithms, Database, Infrastructure]
+subtitle: "An Overall step-by-step Infrastructure documentation"
 lang: "en"
 titlepage: true
 titlepage-color: "1E90FF"
@@ -29,21 +29,7 @@ My overall objective was to configure the network, and systems.
 
 # Additional Items
 
-## Appendix - Proof and Local Contents:
-
-IP (Hostname) | Local.txt Contents | Proof.txt Contents
---------------|--------------------|-------------------
-192.168.x.x   | hash_here          | hash_here
-192.168.x.x   | hash_here          | hash_here
-192.168.x.x   | hash_here          | hash_here
-192.168.x.x   | hash_here          | hash_here
-192.168.x.x   | hash_here          | hash_here
-
-## Appendix - Metasploit/Meterpreter Usage
-
-For the exam, I used my Metasploit/Meterpreter allowance on the following machine: `192.168.x.x`
-
-## Appendix - Completed Buffer Overflow Code
+## Appendix - Things here:
 
 ```
 code here
