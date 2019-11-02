@@ -62,6 +62,9 @@ adduser --disabled-password --gecos "" thethawat.kon --force-badname
 adduser --disabled-password --gecos "" panupong.tan --force-badname
 adduser --disabled-password --gecos "" aukkrit.soi --force-badname
 adduser --disabled-password --gecos "" prapon.tok --force-badname
+adduser --disabled-password --gecos "" puttipong.tha --force-badname
+adduser --disabled-password --gecos "" vasin.vir --force-badname
+adduser --disabled-password --gecos "" tanjid.cho --force-badname
 
 #Set password to user's Student ID
 
@@ -125,6 +128,9 @@ echo -e "61130500257\n61130500257" | passwd thethawat.kon
 echo -e "61130500258\n61130500258" | passwd panupong.tan
 echo -e "61130500259\n61130500259" | passwd aukkrit.soi
 echo -e "61130500261\n61130500261" | passwd prapon.tok
+echo -e "59130500220\n59130500220" | passwd puttipong.tha
+echo -e "59130500227\n59130500227" | passwd vasin.vir
+echo -e "60130500251\n60130500251" | passwd tanjid.cho
 
 # Force password change on user ssh login
 
@@ -188,6 +194,9 @@ passwd -e thethawat.kon
 passwd -e panupong.tan
 passwd -e aukkrit.soi
 passwd -e prapon.tok
+passwd -e puttipong.tha
+passwd -e vasin.vir
+passwd -e tanjid.cho
 
 # Add Groups
 
@@ -227,6 +236,7 @@ gpasswd -a supapatr.won grp_4
 gpasswd -a pongpoom.pan grp_5
 gpasswd -a sinin.cha grp_5
 gpasswd -a aticha.sun grp_5
+gpasswd -a vasin.vir grp_5
 gpasswd -a nuttawut.pro grp_6
 gpasswd -a napat.jam grp_6
 gpasswd -a thethawat.kon grp_6
@@ -238,7 +248,7 @@ gpasswd -a yasumin.ker grp_8
 gpasswd -a athisri.sit grp_8
 gpasswd -a thanyawee.sri grp_9
 gpasswd -a nachol.tae grp_9
-gpasswd -a benjaporn.bhu grp_9 
+gpasswd -a benjaporn.bhu grp_9
 gpasswd -a taipun.ban grp_10
 gpasswd -a phruksachat.yao grp_10
 gpasswd -a kani-on.pan grp_10
@@ -249,9 +259,11 @@ gpasswd -a aukkrit.soi grp_11
 gpasswd -a tawan.von grp_12
 gpasswd -a tanadon.say grp_12
 gpasswd -a audsadawut.suk grp_12
+gpasswd -a puttipong.tha grp_12
 gpasswd -a natthida.tha grp_13
 gpasswd -a patthamaporn.sam grp_13
 gpasswd -a aye.aye grp_13
+gpasswd -a tanjid.cho grp_13
 gpasswd -a vorapol.cha grp_14
 gpasswd -a kongphob.won grp_14
 gpasswd -a chirayu.phr grp_14
