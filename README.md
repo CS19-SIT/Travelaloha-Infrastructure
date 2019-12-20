@@ -4,7 +4,7 @@ author: ["Thanadon Teeratadapong", "Student ID: 61130500240", "Mail : thanadon.r
 date: "2019-11-05"
 subject: "Markdown"
 keywords: [Markdown, Algorithms, Database, Infrastructure, Documentation, SSL Certificate, Nginx, Nodejs]
-subtitle: "An Overall step-by-step Infrastructure documentation"
+subtitle: "An Infrastructure documentation"
 lang: "en"
 titlepage: true
 titlepage-color: "483D8B"
@@ -28,6 +28,16 @@ I was tasked with configuring the server to deploy our project as Infrastructure
 The project is part of CSC 210/BIF 521 Analysis and Design of Algorithms and CSC218 Database Systems.
 The focus of this project is to put our theory into practice.
 My overall objective was to configure the network, and systems to be ready for the application.
+
+Important file location.
+
+* /var/www/project
+* /var/www/project_dev_branch
+* /etc/nginx
+* /opt/infra
+
+For all other sensitive imformation(IP Addresss, Root password, ETC.). Please contract The author of this documentation.
+
 
 I identified the requirement for the applications as follows.
 
